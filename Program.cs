@@ -3,7 +3,6 @@ using Azure.Messaging.EventGrid;
 using EventGrid.Moq;
 using Moq;
 using System.Net;
-using System.Security.Cryptography.X509Certificates;
 
 // Create some storage to analyse the events
 List<EventGridEvent> events = new List<EventGridEvent>();
